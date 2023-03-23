@@ -56,18 +56,28 @@ export const NAME_OF_PAGE_OR_COMPONENT = {
 };
 ```
 
-See how `./demo/src/pages/index.astro` and `./demo/src/components/Sidebar.astro` for examples on how the content is imported and used.
+See `./demo/src/pages/index.astro` and `./demo/src/components/Sidebar.astro` for examples on how the content is imported and used.
 
 ### 2. Make your template with a config file in this repository.
 
-Move or download your template into this repository. Create a `config.ts` in the `src` directory (or whichever directory your project has for its project code).
+Move or download your template into this repository. By the end of this, we'll have a root file structure like this in our repository.
+
+```
+demo/
+project1/
+project2/
+...
+README.md
+```
+
+Create a `config.ts` in the `src` directory of your template (or whichever directory your project has for its project code). Model it after the demo and then import that data into your components.
 
 ### 3. Create a branch and upload your code to GitHub.
 
 In the root of this repository, run these commands.
 
 ```bash
-# Create a branch
+# Create a branch to store your code separately
 # your-template-name is tailcast or something, e.g. `git checkout -b tailcast`.
 # use dashes instead of spaces if needed, all lowercase.
 git checkout -b <your-template-name>
@@ -77,4 +87,16 @@ git add *
 git commit -m "Save message goes here"
 # upload
 git push -u origin
+```
+
+#### Working on your branch on a different computer/from home
+
+```bash
+# clone
+git clone https://github.com/SpringMicro1/astro-hosting-templates.git
+cd astro-hosting-templates
+git checkout -b <your-branch-name>
+# get your current version
+git pull
+# run npm install, etc.
 ```
