@@ -10,6 +10,12 @@ export const SITE: Site = {
   postPerPage: 3,
 };
 
+export const BODY = {
+  TEXT: {
+    TOP_PARAGRAPH: ""
+  }
+};
+
 export const LOGO_IMAGE = {
   enable: false,
   svg: true,
