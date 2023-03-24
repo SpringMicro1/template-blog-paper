@@ -8,6 +8,10 @@ export const BASE = {
     "Astro Modern Personal Website template with Project Section, CV Section, Paginated Blog, RSS Feed, SEO Friendly, Visual themes and Responsive Design.",
 };
 
+export const HEADER = {
+  TEXT: {},
+}
+
 // imported in ./components/SideBar.astro
 export const SIDEBAR = {
   TEXT: {},
@@ -24,8 +28,8 @@ export const SIDEBAR = {
 export const HOME = {
   TEXT: {
     SALUTATION: "Hello there 👋",
-    H1: "I'm David Buckley",
-    SUBTITLE: "CS Teacher and Software Engineer",
+    H1: "I'm Cameron Rowberry",
+    SUBTITLE: "CS Student and Programmer",
     INTRODUCTION: `I made this template as a demostration of loading content from a config file!`,
   },
   LINKS: {
