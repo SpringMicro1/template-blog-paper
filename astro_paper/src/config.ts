@@ -10,9 +10,47 @@ export const SITE: Site = {
   postPerPage: 3,
 };
 
-export const BODY = {
+export const INDEX = {
   TEXT: {
-    TOP_PARAGRAPH: ""
+    TITLE: "Mingalaba",
+    FIRST_PARAGRAPH: "AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro blog theme. This theme follows best practices and provides accessibility out of the box. Light and dark mode are supported by default. Moreover, additional color schemes can also be configured.",
+    SECOND_PARAGRAPH:"Read the blog posts or check README for more info.",
+    FEATURED: "Featured",
+    RECENT_POSTS: "Recent Posts"
+  },
+
+  LINKS: {
+    NAME: {
+      href: "",
+      content: ""
+    }
+  },
+
+  IMAGES: {
+    NAME: {
+      src: "",
+      alt: ""
+    }
+  }
+};
+
+export const ERROR = {
+  TEXT: {
+    MESSAGE: "¯\\_(ツ)_/¯"
+  },
+
+  LINKS: {
+    HOME: {
+      href: "/",
+      content: "Go back home"
+    }
+  },
+
+  IMAGES: {
+    NAME: {
+      src: "",
+      alt: ""
+    }
   }
 };
 
