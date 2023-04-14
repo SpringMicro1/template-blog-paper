@@ -17,7 +17,7 @@ export const INDEX = {
     SECOND_PARAGRAPH:"Read the blog posts or check README for more info.",
     FEATURED: "Featured",
     RECENT_POSTS: "Recent Posts",
-    SOCIAL_LINKS: "Social Links:"
+    SOCIAL: "Social Links:"
   },
 
   LINKS: {
