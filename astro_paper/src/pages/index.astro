@@ -9,6 +9,7 @@ import Card from "@components/Card";
 import Socials from "@components/Socials.astro";
 import getSortedPosts from "@utils/getSortedPosts";
 import slugify from "@utils/slugify";
+
 import { SOCIALS } from "@config";
 import { INDEX } from "../config";
 
@@ -58,7 +59,7 @@ const { TEXT } = INDEX;
         // only display if at least one social link is enabled
         socialCount > 0 && (
           <div class="social-wrapper">
-            <div class="social-links">Social Links:</div>
+            <div class="social-links">{TEXT.SOCIAL_LINKS}</div>
             <Socials />
           </div>
         )
@@ -71,7 +72,7 @@ const { TEXT } = INDEX;
       featuredPosts.length > 0 && (
         <>
           <section id="featured">
-            <h1>{TEXT.FEATURED}</h1>
+            <h2>{TEXT.FEATURED}</h2>
             <ul>
               {featuredPosts.map(({ data }) => (
                 <Card
